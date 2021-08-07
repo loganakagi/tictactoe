@@ -1,6 +1,18 @@
+import logo from './logo.svg';
+import './App.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css'
+import ReactDOM from 'react-dom'
+import './index.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        
+      </header>
+    </div>
+  );
+}
 
 function Square(props) {
   return (
@@ -147,3 +159,4 @@ function calculateWinner(squares) {
   return null;
 }
 
+export default App;
